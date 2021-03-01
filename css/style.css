@@ -5,3 +5,7 @@
 #main_form button {
     margin-top: 10px;
 }
+
+#form_message {
+    color: red;
+}

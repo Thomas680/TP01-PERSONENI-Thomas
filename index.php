@@ -10,12 +10,15 @@
 </head>
 <body>
     <form id="main_form" action="" method="post">
+        <div id="form_message"></div>
         <div>
             Civilité : 
-            <label>Mr <input type="radio" name="civilite" value="Mr"></label>
-            <label>Mme <input type="radio" name="civilite" value="Mme"></label>
-            <label>Bell AH-1Z Viper <input type="radio" name="civilite" value="Bell AH-1Z Viper"></label>
-        <div>
+            <ul>
+            <li><label>Mr <input type="radio" name="civilite" value="Mr"></label></li>
+            <li><label>Mme <input type="radio" name="civilite" value="Mme"></label></li>
+            <li><label>Bell AH-1Z Viper <input type="radio" name="civilite" value="Bell AH-1Z Viper"></label></li>
+            </ul>
+        </div>
         <div>
             <label>Prénom : <input type="text" name="firstname"></label>
         </div>
@@ -37,13 +40,14 @@
         <div>
             <label>Email : <input type="email" name="firstname"></label>
         </div>
-            <label>Mot de passe : <input type="password" name="password"></label>
-        </div>
-        <div>
-            <label>Confirmer mot de passe : <input type="password" name="password_confirm"></label>
-        </div>
         <div>
             <label>Login : <input type="text" name="login"></label>
+        </div>
+        <div>
+            <label>Mot de passe : <input type="password" id="password" name="password"></label>
+        </div>
+        <div>
+            <label>Confirmer mot de passe : <input type="password" id="password_confirm" name="password_confirm"></label>
         </div>
         <button type="submit" class="btn btn-sm btn-primary">Envoyer</button>
     </form>
