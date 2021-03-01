@@ -4,10 +4,15 @@ function checkPassword() {
     let confirmPassword = document.getElementById('password_confirm').value;
     if (password != confirmPassword) {
         document.getElementById('form_message').innerText = "Les mots de passe ne correspondent pas.";
+        return false;
     } else {
         document.getElementById('form_message').innerText = "";
+        return true;
     }
 }
 
-document.getElementById('password').addEventListener('keyup', checkPassword);
-document.getElementById('password_confirm').addEventListener('keyup', checkPassword);
+$("#main_form").submit(function(e) {
+    if(!checkPassword()) {
+        e.preventDefault();
+    }
+})
