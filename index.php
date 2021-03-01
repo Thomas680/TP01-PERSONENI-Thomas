@@ -9,6 +9,7 @@
     <title>TP01</title>
 </head>
 <body>
+    <h1>Inscription</h1>
     <form id="main_form" action="" method="post">
         <div id="form_message"></div>
         <div>
