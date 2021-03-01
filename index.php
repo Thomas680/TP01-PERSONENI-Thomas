@@ -16,7 +16,7 @@
         <h1>Inscription</h1>
         <div class="row">
             <div class="col-6">
-                <form id="main_form" action="" method="post">
+                <form id="main_form" method="post">
                     <div id="form_message"></div>
                         <div class="mb-3 row">
                             <div class="col-sm-2">
@@ -76,25 +76,25 @@
                     <div class="mb-3 row">
                         <label class="col-sm-2 col-form-label">Email : </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="email" required name="email"></label>
+                            <input class="form-control" type="email" required name="email">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label class="col-sm-2 col-form-label">Login : </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" required name="login"></label>
+                            <input class="form-control" type="text" required name="login">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label class="col-sm-2 col-form-label">Mot de passe : </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="password" id="password" required name="password"></label>
+                            <input class="form-control" type="password" id="password" required name="password">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label class="col-sm-2 col-form-label">Confirmer mot de passe : </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="password" id="password_confirm" required name="password_confirm"></label>
+                            <input class="form-control" type="password" id="password_confirm" required name="password_confirm">
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Envoyer</button>
